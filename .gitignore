@@ -1,0 +1,141 @@
+
+# ==========================================
+# Terraform - Local directories
+# ==========================================
+**/.terraform/*
+.terraform/
+
+# ==========================================
+# Terraform state files (may contain secrets)
+# ==========================================
+*.tfstate
+*.tfstate.*
+terraform.tfstate
+terraform.tfstate.backup
+.terraform.tfstate.lock.info
+
+# ==========================================
+# Terraform variable files (may contain secrets)
+# ==========================================
+*.tfvars
+*.tfvars.json
+
+# Uncomment these lines if you want to commit
+# non-sensitive example variable files:
+# !example.tfvars
+# !terraform.tfvars.example
+
+# ==========================================
+# Terraform plan files
+# ==========================================
+*.tfplan
+tfplan
+tfplan.*
+plan.out
+plan.out.*
+
+# ==========================================
+# Terraform crash logs
+# ==========================================
+crash.log
+crash.*.log
+
+# ==========================================
+# Terraform override files
+# ==========================================
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# ==========================================
+# Terraform CLI configuration
+# ==========================================
+.terraformrc
+terraform.rc
+
+# ==========================================
+# Terraform generated graph files
+# ==========================================
+*.dot
+
+# ==========================================
+# Terraform backups and temporary files
+# ==========================================
+*.backup
+*.bak
+*.tmp
+*~
+
+# ==========================================
+# Environment variables and secrets
+# ==========================================
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets.json
+secrets.yaml
+secrets.yml
+credentials
+credentials.*
+
+# ==========================================
+# AWS credentials
+# ==========================================
+.aws/
+.aws/credentials
+
+# ==========================================
+# Logs
+# ==========================================
+*.log
+
+# ==========================================
+# VS Code
+# ==========================================
+.vscode/
+
+# ==========================================
+# IntelliJ IDEA
+# ==========================================
+.idea/
+*.iml
+
+# ==========================================
+# Eclipse
+# ==========================================
+.metadata/
+.settings/
+.project
+.classpath
+
+# ==========================================
+# Operating system files
+# ==========================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==========================================
+# Temporary editor files
+# ==========================================
+*.swp
+*.swo
+.*.sw?
+
+# ==========================================
+# Python files (useful for Lambda projects)
+# ==========================================
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# ==========================================
+# Node.js files (if used in the project)
+# ==========================================
+node_modules/
+npm-debug.log*
